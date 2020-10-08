@@ -14,7 +14,7 @@
     </parent>
     <groupId>arduino.springframework</groupId>
     <artifactId>am-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>am-pet-clinic</name>
     <description>Spring Boot Pet Clinic</description>
 
@@ -45,7 +45,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:Arduino99/am-pet-clinic.git</developerConnection>
-      <tag>am-pet-clinic-0.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
