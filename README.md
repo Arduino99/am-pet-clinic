@@ -1,2 +1,2 @@
 # am-pet-clinic
-Pet clinic with Spring Framwork
+Pet clinic with Spring Framework
