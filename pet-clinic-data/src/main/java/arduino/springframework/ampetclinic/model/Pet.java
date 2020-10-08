@@ -1,4 +1,4 @@
-package ampetclinic.model;
+package arduino.springframework.ampetclinic.model;
 
 import java.time.LocalDate;
 
