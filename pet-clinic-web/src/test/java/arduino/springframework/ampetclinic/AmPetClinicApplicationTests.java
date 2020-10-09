@@ -1,4 +1,4 @@
-package ampetclinic;
+package arduino.springframework.ampetclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
