@@ -3,11 +3,12 @@ package arduino.springframework.ampetclinic.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+@RequestMapping("/owners")
 @Controller
-public class VetController {
+public class OwnerController {
 
-  @RequestMapping({"/vets", "/vets/vets", "/vets/vets.html"})
-  public String listVets(){
+  @RequestMapping({"", "/", "/owners", "/owners.html"})
+  public String listOwners(){
     return "vets/vets";
   }
 }
