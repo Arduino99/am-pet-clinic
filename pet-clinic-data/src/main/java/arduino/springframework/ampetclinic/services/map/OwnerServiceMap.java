@@ -2,9 +2,11 @@ package arduino.springframework.ampetclinic.services.map;
 
 import arduino.springframework.ampetclinic.model.Owner;
 import arduino.springframework.ampetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
   @Override

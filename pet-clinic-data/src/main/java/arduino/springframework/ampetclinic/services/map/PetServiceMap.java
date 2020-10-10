@@ -2,9 +2,11 @@ package arduino.springframework.ampetclinic.services.map;
 
 import arduino.springframework.ampetclinic.model.Pet;
 import arduino.springframework.ampetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
   @Override
